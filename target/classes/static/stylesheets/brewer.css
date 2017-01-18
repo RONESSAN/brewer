@@ -74,6 +74,13 @@
     vertical-align: middle;
 }
 
+
+/* Tabela Comuns */
+.table-col-acoes {
+	width: 80px;
+}
+
+
 /* Colunas - Pesquisa de Cervejas */
 .table-cervejas-col-foto {
 	min-width: 50px;
@@ -104,4 +111,11 @@
 
 .table-cervejas-col-acoes {
 	width: 80px;
+}
+
+
+/* Colunas - Pesquisa de Estilos */
+
+.table-estilos-col-codigo {
+	width: 90px;
 }

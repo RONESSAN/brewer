@@ -5,7 +5,7 @@ Brewer.UploadFoto = ( function(){
 	function UploadFoto(){
 		
 		this.inputNomeFoto = $('input[name=foto]');
-		this.inputContentType = $('input[nome=contentType]');
+		this.inputContentType = $('input[name=contentType]');
 		
 		this.htmlFotoCervejaTemplate = $('#foto-cerveja').html();
 		this.template = Handlebars.compile(this.htmlFotoCervejaTemplate);
